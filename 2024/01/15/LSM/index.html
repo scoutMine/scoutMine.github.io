@@ -7,7 +7,7 @@
 <meta property="og:locale" content="zh_CN">
 <meta property="og:image" content="http://shenfenyin.github.io/img/sfy_portriat.jpg">
 <meta property="article:published_time" content="2024-01-14T16:51:57.852Z">
-<meta property="article:modified_time" content="2024-01-14T17:55:01.854Z">
+<meta property="article:modified_time" content="2024-01-14T18:44:26.719Z">
 <meta property="article:author" content="Shen Fengyin">
 <meta property="article:tag" content="LSM">
 <meta property="article:tag" content="数据结构">
@@ -57,7 +57,7 @@
   isHome: false,
   isHighlightShrink: false,
   isToc: true,
-  postUpdate: '2024-01-15 01:55:01'
+  postUpdate: '2024-01-15 02:44:26'
 }</script><script>(win=>{
       win.saveToLocal = {
         set: (key, value, ttl) => {
@@ -154,7 +154,7 @@
         }
       }
       detectApple()
-    })(window)</script><meta name="generator" content="Hexo 7.0.0"></head><body><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img is-center"><img src="/img/sfy_portriat.jpg" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="sidebar-site-data site-data is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">7</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">16</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">4</div></a></div><hr class="custom-hr"/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 主页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 近期博客</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> 友链</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 相关</span></a></div></div></div></div><div class="post" id="body-wrap"><header class="not-top-img" id="page-header"><nav id="nav"><span id="blog-info"><a href="/" title="SHENFY BLOG"><span class="site-name">SHENFY BLOG</span></a></span><div id="menus"><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 主页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 近期博客</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> 友链</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 相关</span></a></div></div><div id="toggle-menu"><a class="site-page" href="javascript:void(0);"><i class="fas fa-bars fa-fw"></i></a></div></div></nav></header><main class="layout" id="content-inner"><div id="post"><div id="post-info"><h1 class="post-title">LSM学习</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">发表于</span><time class="post-meta-date-created" datetime="2024-01-14T16:51:57.852Z" title="发表于 2024-01-15 00:51:57">2024-01-15</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2024-01-14T17:55:01.854Z" title="更新于 2024-01-15 01:55:01">2024-01-15</time></span><span class="post-meta-categories"><span class="post-meta-separator">|</span><i class="fas fa-inbox fa-fw post-meta-icon"></i><a class="post-meta-categories" href="/categories/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/">数据结构</a></span></div><div class="meta-secondline"><span class="post-meta-separator">|</span><span class="post-meta-pv-cv" id="" data-flag-title="LSM学习"><i class="far fa-eye fa-fw post-meta-icon"></i><span class="post-meta-label">阅读量:</span><span id="busuanzi_value_page_pv"><i class="fa-solid fa-spinner fa-spin"></i></span></span></div></div></div><article class="post-content" id="article-container"><h1 id="转载-LSM树"><a href="#转载-LSM树" class="headerlink" title="[转载]LSM树"></a>[转载]LSM树</h1><p>讲清楚了LSM merge的基本原理：<a target="_blank" rel="noopener" href="http://weakyon.com/2015/04/08/Log-Structured-Merge-Trees.html#%E4%B8%80%E4%BA%9B%E8%83%8C%E6%99%AF%E7%9F%A5%E8%AF%86">http://weakyon.com/2015/04/08/Log-Structured-Merge-Trees.html#%E4%B8%80%E4%BA%9B%E8%83%8C%E6%99%AF%E7%9F%A5%E8%AF%86</a></p>
+    })(window)</script><meta name="generator" content="Hexo 7.0.0"></head><body><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img is-center"><img src="/img/sfy_portriat.jpg" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="sidebar-site-data site-data is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">7</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">16</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">4</div></a></div><hr class="custom-hr"/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 主页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 近期博客</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> 友链</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 相关</span></a></div></div></div></div><div class="post" id="body-wrap"><header class="not-top-img" id="page-header"><nav id="nav"><span id="blog-info"><a href="/" title="SHENFY BLOG"><span class="site-name">SHENFY BLOG</span></a></span><div id="menus"><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 主页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 近期博客</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> 友链</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 相关</span></a></div></div><div id="toggle-menu"><a class="site-page" href="javascript:void(0);"><i class="fas fa-bars fa-fw"></i></a></div></div></nav></header><main class="layout" id="content-inner"><div id="post"><div id="post-info"><h1 class="post-title">LSM学习</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">发表于</span><time class="post-meta-date-created" datetime="2024-01-14T16:51:57.852Z" title="发表于 2024-01-15 00:51:57">2024-01-15</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2024-01-14T18:44:26.719Z" title="更新于 2024-01-15 02:44:26">2024-01-15</time></span><span class="post-meta-categories"><span class="post-meta-separator">|</span><i class="fas fa-inbox fa-fw post-meta-icon"></i><a class="post-meta-categories" href="/categories/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/">数据结构</a></span></div><div class="meta-secondline"><span class="post-meta-separator">|</span><span class="post-meta-pv-cv" id="" data-flag-title="LSM学习"><i class="far fa-eye fa-fw post-meta-icon"></i><span class="post-meta-label">阅读量:</span><span id="busuanzi_value_page_pv"><i class="fa-solid fa-spinner fa-spin"></i></span></span></div></div></div><article class="post-content" id="article-container"><h1 id="转载-LSM树"><a href="#转载-LSM树" class="headerlink" title="[转载]LSM树"></a>[转载]LSM树</h1><p>讲清楚了LSM merge的基本原理：<a target="_blank" rel="noopener" href="http://weakyon.com/2015/04/08/Log-Structured-Merge-Trees.html#%E4%B8%80%E4%BA%9B%E8%83%8C%E6%99%AF%E7%9F%A5%E8%AF%86">http://weakyon.com/2015/04/08/Log-Structured-Merge-Trees.html#%E4%B8%80%E4%BA%9B%E8%83%8C%E6%99%AF%E7%9F%A5%E8%AF%86</a></p>
 <p>讲清楚了LSM的两种compact方法（磁盘)：1 size-tiered （merge）2 leveled (有点像跳表？？？)<a target="_blank" rel="noopener" href="https://zhuanlan.zhihu.com/p/181498475">https://zhuanlan.zhihu.com/p/181498475</a></p>
 <p>LSM树，即日志结构合并树(Log-Structured Merge-Tree)。 其实它并不属于一个具体的数据结构，它更多是一种数据结构的设计思想。 大多NoSQL数据库核心思想都是基于LSM来做的， 只是具体的实现不同。</p>
 <blockquote>
@@ -163,7 +163,7 @@
 <p>2、mysql是直接改原数据，需要将磁盘上的数据读出来，再写进去，而lsm直接写就ok了。</p>
 </blockquote>
 <p>LSM经常和B+树进行对比来看。<strong>在用法上，我们常见的Innodb引擎采用的是原地更新（B+tree），而其他NoSql类型的数据库大多采用追加式更新（LSMtree）</strong></p>
-<p><img src="/LSM.assets/lsmtree-1.png" alt="img"></p>
+<p><img src="/2024/01/15/LSM/lsmtree-1.png" alt="img"></p>
 <center>图1：LSM存储结构</center>		
 
 <p>​		它的核心思路其实非常简单**，就是假定内存足够大，因此不需要每次有数据更新就必须将数据写入到磁盘中， 而可以先将最新的数据驻留在内存中，等到积累到最后多之后，再使用归并排序的方式将内存内的数据合并追加到磁盘队尾 (因为所有待排序的树都是有序的，可以通过合并排序的方式快速合并到一起)**。</p>
@@ -180,61 +180,61 @@
 <h3 id="关于磁盘IO"><a href="#关于磁盘IO" class="headerlink" title="关于磁盘IO"></a>关于磁盘IO</h3><p>磁盘读写时涉及到磁盘上数据查找，地址一般由柱面号、盘面号和块号三者构成。也就是说移动臂先根据柱面号移动到指定柱面，然后根据盘面号确定盘面的磁道，最后根据块号将指定的磁道段移动到磁头下，便可开始读写。</p>
 <p>整个过程主要有三部分时间消耗，查找时间(seek time) +等待时间(latency time)+传输时间(transmission time) 。分别表示定位柱面的耗时、将块号指定磁道段移到磁头的耗时、将数据传到内存的耗时。 整个磁盘IO最耗时的地方在查找时间，所以减少查找时间能大幅提升性能。</p>
 <h3 id="LSM树原理"><a href="#LSM树原理" class="headerlink" title="LSM树原理"></a>LSM树原理</h3><p>LSM树由两个或以上的存储结构组成，比如在论文中为了方便说明使用了最简单的两个存储结构。比如<strong>内存+磁盘</strong>：一个存储结构常驻内存中，称为C0 tree，具体可以是任何方便健值查找的数据结构，比如红黑树、map之类，甚至可以是跳表。 另外一个存储结构常驻在硬盘中，称为C1 tree，具体结构类似B树。C1所有节点都是100%满的，节点的大小为磁盘块大小。</p>
-<p><img src="/LSM.assets/lsmtree-2.png" alt="img"></p>
+<p><img src="/2024/01/15/LSM/lsmtree-2.png" alt="img"></p>
 <h3 id="插入步骤"><a href="#插入步骤" class="headerlink" title="插入步骤"></a>插入步骤</h3><p>大体思路是：插入一条新纪录时，首先在日志文件中插入操作日志，以便后面恢复使用，日志是以append形式插入，所以速度非常快；将新纪录的索引插入到C0中，这里在内存中完成，不涉及磁盘IO操作；<strong>当C0大小达到某一阈值时或者每隔一段时间，将C0中记录滚动合并到磁盘C1中；</strong>对于<strong>多个存储结构的情况，当C1体量越来越大就向C2合并，以此类推，一直往上合并Ck（为了优化读性能）</strong>。</p>
-<p><img src="/LSM.assets/lsmtree-3.png" alt="img"></p>
+<p><img src="/2024/01/15/LSM/lsmtree-3.png" alt="img"></p>
 <h3 id="合并步骤"><a href="#合并步骤" class="headerlink" title="合并步骤"></a>合并步骤</h3><p>合并过程中会使用两个块：emptying block和filling block。</p>
 <p>从C1中读取未合并叶子节点，放置内存中的emptying block中。从小到大找C0中的节点，与emptying block进行合并排序，合并结果保存到filling block中，并将C0对应的节点删除。不断执行第2步操作，合并排序结果不断填入filling block中，<strong>当其满了则将其追加到磁盘的新位置上，注意是追加而不是改变原来的节点。</strong>合并期间如故宫emptying block使用完了则再从C1中读取未合并的叶子节点。C0和C1所有叶子节点都按以上合并完成后即完成一次合并。</p>
 <h3 id="关于优化措施"><a href="#关于优化措施" class="headerlink" title="关于优化措施"></a>关于优化措施</h3><p>本文用图阐述LSM的基本原理，但实际项目中其实有很多优化策略，而且有很多针对LSM树优化的paper。比如使用布隆过滤器快速判断key是否存在，还有做一些额外的索引以帮助更快找到记录等等。</p>
 <h3 id="插入操作-实例演示"><a href="#插入操作-实例演示" class="headerlink" title="插入操作-实例演示"></a>插入操作-实例演示</h3><p>向LSM树中插入</p>
 <p>A E L R U</p>
 <p>首先会插入到内存中的C0树上，这里使用AVL树，插入“A”，先向磁盘日志文件追加记录，然后再插入C0</p>
-<p><img src="/LSM.assets/lsmtree-4.png" alt="img"></p>
+<p><img src="/2024/01/15/LSM/lsmtree-4.png" alt="img"></p>
 <p>插入“E”，同样先追加日志再写内存，</p>
-<p><img src="/LSM.assets/lsmtree-5.png" alt="img"></p>
+<p><img src="/2024/01/15/LSM/lsmtree-5.png" alt="img"></p>
 <p>继续插入“L”，旋转后如下，</p>
-<p><img src="/LSM.assets/lsmtree-6.png" alt="img"></p>
+<p><img src="/2024/01/15/LSM/lsmtree-6.png" alt="img"></p>
 <p>插入“R”“U”，旋转后最终如下。</p>
-<p><img src="/LSM.assets/lsmtree-7.png" alt="img"></p>
+<p><img src="/2024/01/15/LSM/lsmtree-7.png" alt="img"></p>
 <p>假设此时触发合并，则因为C1还没有树，所以emptying block为空，直接从C0树中依次找最小的节点。filling block长度为4，这里假设磁盘块大小为4。</p>
 <p>开始找最小的节点，并放到filling block中，</p>
-<p><img src="/LSM.assets/lsmtree-8.png" alt="img"></p>
+<p><img src="/2024/01/15/LSM/lsmtree-8.png" alt="img"></p>
 <p>继续找第二个节点，</p>
-<p><img src="/LSM.assets/lsmtree-9.png" alt="img"></p>
+<p><img src="/2024/01/15/LSM/lsmtree-9.png" alt="img"></p>
 <p>以此类推，填满filling block</p>
-<p><img src="/LSM.assets/lsmtree-10.png" alt="img"></p>
+<p><img src="/2024/01/15/LSM/lsmtree-10.png" alt="img"></p>
 <p>开始写入磁盘，C1树，</p>
 <p><img src="https://fhfirehuo.github.io/Attacking-Java-Rookie/image/c2/lsmtree-11.png" alt="img"></p>
 <p>继续插入</p>
 <p>B F N T</p>
 <p>先分别写日志，然后插入到内存的C0树中</p>
-<p><img src="/LSM.assets/lsmtree-12.png" alt="img"></p>
+<p><img src="/2024/01/15/LSM/lsmtree-12.png" alt="img"></p>
 <p>假如此时进行合并，先加载C1的最左边叶子节点到emptying block，</p>
-<p><img src="/LSM.assets/lsmtree-13.png" alt="img"></p>
+<p><img src="/2024/01/15/LSM/lsmtree-13.png" alt="img"></p>
 <p>接着对C0树的节点和emptying block进行合并排序，首先是“A”进入filling block，</p>
-<p><img src="/LSM.assets/lsmtree-14.png" alt="img"></p>
+<p><img src="/2024/01/15/LSM/lsmtree-14.png" alt="img"></p>
 <p>然后是“B”，</p>
-<p><img src="/LSM.assets/lsmtree-15.png" alt="img"></p>
+<p><img src="/2024/01/15/LSM/lsmtree-15.png" alt="img"></p>
 <p>合并排序最终结果为，</p>
-<p><img src="/LSM.assets/lsmtree-16.png" alt="img"></p>
+<p><img src="/2024/01/15/LSM/lsmtree-16.png" alt="img"></p>
 <p>将filling block追加到磁盘的新位置，将原来的节点删除掉（<strong>覆盖或者用版本号</strong>，</p>
-<p><img src="/LSM.assets/lsmtree-17.png" alt="img"></p>
+<p><img src="/2024/01/15/LSM/lsmtree-17.png" alt="img"></p>
 <p>继续合并排序，再次填满filling block，</p>
-<p><img src="/LSM.assets/lsmtree-18.png" alt="img"></p>
+<p><img src="/2024/01/15/LSM/lsmtree-18.png" alt="img"></p>
 <p>将filling block追加到磁盘的新位置，上一层的节点也要以磁盘块（或多个磁盘块）大小写入，尽量避开随机写。另外由于合并过程可能会导致上层节点的更新，可以暂时保存在内存，后面在适当时机写入。</p>
-<p><img src="/LSM.assets/lsmtree-19.png" alt="img"></p>
+<p><img src="/2024/01/15/LSM/lsmtree-19.png" alt="img"></p>
 <h3 id="查找操作"><a href="#查找操作" class="headerlink" title="查找操作"></a>查找操作</h3><p><strong>查找总体思想是先找内存的C0树，找不到则找磁盘的C1树，然后是C2树，以此类推。</strong></p>
 <p>假如要找“B”，先找C0树，没找到。</p>
-<p><img src="/LSM.assets/lsmtree-20.png" alt="img"></p>
+<p><img src="/2024/01/15/LSM/lsmtree-20.png" alt="img"></p>
 <p>接着找C1树，从根节点开始，</p>
-<p><img src="/LSM.assets/lsmtree-21.png" alt="img"></p>
+<p><img src="/2024/01/15/LSM/lsmtree-21.png" alt="img"></p>
 <p>找到“B”。</p>
-<p><img src="/LSM.assets/lsmtree-22.png" alt="img"></p>
+<p><img src="/2024/01/15/LSM/lsmtree-22.png" alt="img"></p>
 <h3 id="删除操作"><a href="#删除操作" class="headerlink" title="删除操作"></a>删除操作</h3><p>删除操作为了能快速执行，主要是通过标记来实现，在内存中将要删除的记录标记一下，后面异步执行合并时将相应记录删除。</p>
 <p>比如要删除“U”，假设标为#的表示删除，则C0树的“U”节点变为，</p>
-<p><img src="/LSM.assets/lsmtree-23.png" alt="img"></p>
+<p><img src="/2024/01/15/LSM/lsmtree-23.png" alt="img"></p>
 <p>而<strong>如果C0树不存在的记录，则在C0树中生成一个节点，并标为#，查找时就能在内存中得知该记录已被删除，无需去磁盘找了</strong>。比如要删除“B”，那么没有必要去磁盘执行删除操作，直接在C0树中插入一个“B”节点，并标为#。</p>
-<p><img src="/LSM.assets/lsmtree-24.png" alt="img"></p>
+<p><img src="/2024/01/15/LSM/lsmtree-24.png" alt="img"></p>
 <p>​		</p>
 <h2 id="二次介绍"><a href="#二次介绍" class="headerlink" title="二次介绍"></a>二次介绍</h2><p>假如对写操作的吞吐量比较敏感，可采用日志策略（顺序读写，只追加不修改）来提升写性能。存在问题：数据查找需要倒序扫描，花费很多时间。比如，预写日志WAL，WAL的中心概念是数据文件（存储着表和索引）的修改必须在这些动作被日志记录之后才被写入，即在描述这些改变的日志记录被刷到持久存储以后。如果我们遵循这种过程，我们不需要在每个事务提交时刷写数据页面到磁盘，因为我们知道在发生崩溃时可以使用日志来恢复数据库：任何还没有被应用到数据页面的改变可以根据其日志记录重做（这是前滚恢复，也被称为REDO）。使用WAL可以显著降低磁盘的写次数，因为只有日志文件需要被刷出到磁盘以保证事务被提交，而被事务改变的每一个数据文件则不必被刷出。</p>
 <p>其只是提高了写的性能，对于更为复杂的读性能，需要寻找其他的方法，其中有四种方法来提升读性能：</p>
@@ -297,7 +297,7 @@
 <p>2）什么是memstore, storefile？很简单，上面说过，LSM树就是一堆小树，在内存中的小树即memstore，每次flush，内存中的memstore变成磁盘上一个新的storefile。</p>
 <p>3）为什么会有compact？很简单，<strong>随着小树越来越多，读的性能会越来越差，因此需要在适当的时候，对磁盘中的小树进行merge，多棵小树变成一颗大树。</strong></p>
 <p>关于LSM Tree，对于最简单的二层LSM Tree而言，内存中的数据和磁盘中的数据merge操作，如下图</p>
-<p><img src="/LSM.assets/281219493293115.png" alt="img"></p>
+<p><img src="/2024/01/15/LSM/281219493293115.png" alt="img"></p>
 <p>下面说说详细例子:</p>
 <p><strong>LSM Tree</strong>弄了很多个小的有序结构，比如每m个数据，在内存里排序一次，下面100个数据，再排序一次……这样依次做下去，就可以获得N&#x2F;m个有序的小的有序结构。</p>
 <p>在查询的时候，因为不知道这个数据到底是在哪里，所以就从最新的一个小的有序结构里做二分查找，找得到就返回，找不到就继续找下一个小有序结构，一直到找到为止。</p>
